@@ -1,0 +1,6 @@
+C:\Users\gavim\OneDrive\Documents\visual Studio\aeropuerto\CapaEntidad\bin\Debug\CapaEntidad.dll
+C:\Users\gavim\OneDrive\Documents\visual Studio\aeropuerto\CapaEntidad\bin\Debug\CapaEntidad.pdb
+C:\Users\gavim\OneDrive\Documents\visual Studio\aeropuerto\CapaEntidad\obj\Debug\CapaEntidad.csprojAssemblyReference.cache
+C:\Users\gavim\OneDrive\Documents\visual Studio\aeropuerto\CapaEntidad\obj\Debug\CapaEntidad.csproj.CoreCompileInputs.cache
+C:\Users\gavim\OneDrive\Documents\visual Studio\aeropuerto\CapaEntidad\obj\Debug\CapaEntidad.dll
+C:\Users\gavim\OneDrive\Documents\visual Studio\aeropuerto\CapaEntidad\obj\Debug\CapaEntidad.pdb

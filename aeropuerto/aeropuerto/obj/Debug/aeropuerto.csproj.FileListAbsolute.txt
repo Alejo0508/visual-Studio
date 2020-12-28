@@ -1,0 +1,17 @@
+C:\Users\gavim\OneDrive\Documents\visual Studio\aeropuerto\aeropuerto\bin\Debug\aeropuerto.exe.config
+C:\Users\gavim\OneDrive\Documents\visual Studio\aeropuerto\aeropuerto\bin\Debug\aeropuerto.exe
+C:\Users\gavim\OneDrive\Documents\visual Studio\aeropuerto\aeropuerto\bin\Debug\aeropuerto.pdb
+C:\Users\gavim\OneDrive\Documents\visual Studio\aeropuerto\aeropuerto\bin\Debug\CapaEntidad.dll
+C:\Users\gavim\OneDrive\Documents\visual Studio\aeropuerto\aeropuerto\bin\Debug\CapaNegocio.dll
+C:\Users\gavim\OneDrive\Documents\visual Studio\aeropuerto\aeropuerto\bin\Debug\CapaDatos.dll
+C:\Users\gavim\OneDrive\Documents\visual Studio\aeropuerto\aeropuerto\bin\Debug\CapaEntidad.pdb
+C:\Users\gavim\OneDrive\Documents\visual Studio\aeropuerto\aeropuerto\bin\Debug\CapaNegocio.pdb
+C:\Users\gavim\OneDrive\Documents\visual Studio\aeropuerto\aeropuerto\bin\Debug\CapaDatos.pdb
+C:\Users\gavim\OneDrive\Documents\visual Studio\aeropuerto\aeropuerto\obj\Debug\aeropuerto.csprojAssemblyReference.cache
+C:\Users\gavim\OneDrive\Documents\visual Studio\aeropuerto\aeropuerto\obj\Debug\aeropuerto.Form1.resources
+C:\Users\gavim\OneDrive\Documents\visual Studio\aeropuerto\aeropuerto\obj\Debug\aeropuerto.Properties.Resources.resources
+C:\Users\gavim\OneDrive\Documents\visual Studio\aeropuerto\aeropuerto\obj\Debug\aeropuerto.csproj.GenerateResource.cache
+C:\Users\gavim\OneDrive\Documents\visual Studio\aeropuerto\aeropuerto\obj\Debug\aeropuerto.csproj.CoreCompileInputs.cache
+C:\Users\gavim\OneDrive\Documents\visual Studio\aeropuerto\aeropuerto\obj\Debug\aeropuerto.csproj.CopyComplete
+C:\Users\gavim\OneDrive\Documents\visual Studio\aeropuerto\aeropuerto\obj\Debug\aeropuerto.exe
+C:\Users\gavim\OneDrive\Documents\visual Studio\aeropuerto\aeropuerto\obj\Debug\aeropuerto.pdb

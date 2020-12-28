@@ -1,0 +1,17 @@
+C:\Users\gavim\OneDrive\Documents\visual Studio\capas1\capas1\bin\Debug\capas1.exe.config
+C:\Users\gavim\OneDrive\Documents\visual Studio\capas1\capas1\bin\Debug\capas1.exe
+C:\Users\gavim\OneDrive\Documents\visual Studio\capas1\capas1\bin\Debug\capas1.pdb
+C:\Users\gavim\OneDrive\Documents\visual Studio\capas1\capas1\obj\Debug\capas1.csprojAssemblyReference.cache
+C:\Users\gavim\OneDrive\Documents\visual Studio\capas1\capas1\obj\Debug\capas1.Form1.resources
+C:\Users\gavim\OneDrive\Documents\visual Studio\capas1\capas1\obj\Debug\capas1.Properties.Resources.resources
+C:\Users\gavim\OneDrive\Documents\visual Studio\capas1\capas1\obj\Debug\capas1.csproj.GenerateResource.cache
+C:\Users\gavim\OneDrive\Documents\visual Studio\capas1\capas1\obj\Debug\capas1.csproj.CoreCompileInputs.cache
+C:\Users\gavim\OneDrive\Documents\visual Studio\capas1\capas1\obj\Debug\capas1.exe
+C:\Users\gavim\OneDrive\Documents\visual Studio\capas1\capas1\obj\Debug\capas1.pdb
+C:\Users\gavim\OneDrive\Documents\visual Studio\capas1\capas1\bin\Debug\CapaEntidad.dll
+C:\Users\gavim\OneDrive\Documents\visual Studio\capas1\capas1\bin\Debug\CapaNegocio.dll
+C:\Users\gavim\OneDrive\Documents\visual Studio\capas1\capas1\bin\Debug\CapaDatos.dll
+C:\Users\gavim\OneDrive\Documents\visual Studio\capas1\capas1\bin\Debug\CapaEntidad.pdb
+C:\Users\gavim\OneDrive\Documents\visual Studio\capas1\capas1\bin\Debug\CapaNegocio.pdb
+C:\Users\gavim\OneDrive\Documents\visual Studio\capas1\capas1\bin\Debug\CapaDatos.pdb
+C:\Users\gavim\OneDrive\Documents\visual Studio\capas1\capas1\obj\Debug\capas1.csproj.CopyComplete

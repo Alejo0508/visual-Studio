@@ -1,0 +1,9 @@
+C:\Users\gavim\OneDrive\Documents\visual Studio\arquitecturacapasescritorio\arquitecturacapasescritorio\bin\Debug\arquitecturacapasescritorio.exe.config
+C:\Users\gavim\OneDrive\Documents\visual Studio\arquitecturacapasescritorio\arquitecturacapasescritorio\bin\Debug\arquitecturacapasescritorio.exe
+C:\Users\gavim\OneDrive\Documents\visual Studio\arquitecturacapasescritorio\arquitecturacapasescritorio\bin\Debug\arquitecturacapasescritorio.pdb
+C:\Users\gavim\OneDrive\Documents\visual Studio\arquitecturacapasescritorio\arquitecturacapasescritorio\obj\Debug\arquitecturacapasescritorio.csprojAssemblyReference.cache
+C:\Users\gavim\OneDrive\Documents\visual Studio\arquitecturacapasescritorio\arquitecturacapasescritorio\obj\Debug\arquitecturacapasescritorio.Properties.Resources.resources
+C:\Users\gavim\OneDrive\Documents\visual Studio\arquitecturacapasescritorio\arquitecturacapasescritorio\obj\Debug\arquitecturacapasescritorio.csproj.GenerateResource.cache
+C:\Users\gavim\OneDrive\Documents\visual Studio\arquitecturacapasescritorio\arquitecturacapasescritorio\obj\Debug\arquitecturacapasescritorio.csproj.CoreCompileInputs.cache
+C:\Users\gavim\OneDrive\Documents\visual Studio\arquitecturacapasescritorio\arquitecturacapasescritorio\obj\Debug\arquitecturacapasescritorio.exe
+C:\Users\gavim\OneDrive\Documents\visual Studio\arquitecturacapasescritorio\arquitecturacapasescritorio\obj\Debug\arquitecturacapasescritorio.pdb

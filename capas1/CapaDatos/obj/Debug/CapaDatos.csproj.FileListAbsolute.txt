@@ -1,0 +1,17 @@
+C:\Users\gavim\OneDrive\Documents\visual Studio\capas1\CapaDatos\bin\Debug\CapaDatos.dll
+C:\Users\gavim\OneDrive\Documents\visual Studio\capas1\CapaDatos\bin\Debug\CapaDatos.pdb
+C:\Users\gavim\OneDrive\Documents\visual Studio\capas1\CapaDatos\bin\Debug\CapaEntidad.dll
+C:\Users\gavim\OneDrive\Documents\visual Studio\capas1\CapaDatos\bin\Debug\System.Configuration.ConfigurationManager.dll
+C:\Users\gavim\OneDrive\Documents\visual Studio\capas1\CapaDatos\bin\Debug\System.Security.AccessControl.dll
+C:\Users\gavim\OneDrive\Documents\visual Studio\capas1\CapaDatos\bin\Debug\System.Security.Permissions.dll
+C:\Users\gavim\OneDrive\Documents\visual Studio\capas1\CapaDatos\bin\Debug\System.Security.Principal.Windows.dll
+C:\Users\gavim\OneDrive\Documents\visual Studio\capas1\CapaDatos\bin\Debug\CapaEntidad.pdb
+C:\Users\gavim\OneDrive\Documents\visual Studio\capas1\CapaDatos\bin\Debug\System.Configuration.ConfigurationManager.xml
+C:\Users\gavim\OneDrive\Documents\visual Studio\capas1\CapaDatos\bin\Debug\System.Security.AccessControl.xml
+C:\Users\gavim\OneDrive\Documents\visual Studio\capas1\CapaDatos\bin\Debug\System.Security.Permissions.xml
+C:\Users\gavim\OneDrive\Documents\visual Studio\capas1\CapaDatos\bin\Debug\System.Security.Principal.Windows.xml
+C:\Users\gavim\OneDrive\Documents\visual Studio\capas1\CapaDatos\obj\Debug\CapaDatos.csprojAssemblyReference.cache
+C:\Users\gavim\OneDrive\Documents\visual Studio\capas1\CapaDatos\obj\Debug\CapaDatos.csproj.CoreCompileInputs.cache
+C:\Users\gavim\OneDrive\Documents\visual Studio\capas1\CapaDatos\obj\Debug\CapaDatos.csproj.CopyComplete
+C:\Users\gavim\OneDrive\Documents\visual Studio\capas1\CapaDatos\obj\Debug\CapaDatos.dll
+C:\Users\gavim\OneDrive\Documents\visual Studio\capas1\CapaDatos\obj\Debug\CapaDatos.pdb
