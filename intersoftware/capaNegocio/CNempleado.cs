@@ -17,10 +17,16 @@ namespace capaNegocio
         public bool guardar_empleado(CEempleado oentempleado)
         {
 
-            return odatempleado.guardar_empleado(oentempleado);
+            return odatempleado.Guardar_empleado(oentempleado);
 
         }
 
+        public DataSet consultar_empleado(CEempleado oentempleado)
+        {
+
+            return odatempleado.Consultar_empleado(oentempleado);
+
+        }
 
 
     }

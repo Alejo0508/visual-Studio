@@ -8,8 +8,8 @@
     <title></title>
     <style type="text/css">
         .auto-style1 {
-            width: 38%;
-            height: 148px;
+            width: 46%;
+            height: 234px;
         }
         .auto-style2 {
             width: 211px;
@@ -20,53 +20,53 @@
         }
         .auto-style4 {
             height: 23px;
-            width: 1313px;
+            width: 1538px;
         }
         .auto-style5 {
-            width: 1313px;
+            width: 1538px;
         }
         .auto-style6 {
             width: 211px;
             height: 26px;
         }
         .auto-style7 {
-            width: 1313px;
+            width: 1538px;
             height: 26px;
         }
     </style>
 </head>
-<body>
+<body style="width: 1260px">
     <form id="form1" runat="server">
         <div>
             <table class="auto-style1">
                 <tr>
                     <td class="auto-style3">cod_empleado:</td>
                     <td class="auto-style4">
-                        <asp:TextBox ID="tbcodempleado" runat="server"></asp:TextBox>
+                        <asp:TextBox ID="tbcodempleado" runat="server" Width="243px"></asp:TextBox>
                     </td>
                 </tr>
                 <tr>
                     <td class="auto-style2">nom_empleado</td>
                     <td class="auto-style5">
-                        <asp:TextBox ID="tbnomempleado" runat="server"></asp:TextBox>
+                        <asp:TextBox ID="tbnomempleado" runat="server" Width="243px"></asp:TextBox>
                     </td>
                 </tr>
                 <tr>
                     <td class="auto-style2">edad_empleado</td>
                     <td class="auto-style5">
-                        <asp:TextBox ID="tbedad" runat="server"></asp:TextBox>
+                        <asp:TextBox ID="tbedad" runat="server" Width="244px"></asp:TextBox>
                     </td>
                 </tr>
                 <tr>
                     <td class="auto-style6">sexo_empledo</td>
                     <td class="auto-style7">
-                        <asp:TextBox ID="tbsexo" runat="server"></asp:TextBox>
+                        <asp:TextBox ID="tbsexo" runat="server" Width="243px"></asp:TextBox>
                     </td>
                 </tr>
                 <tr>
                     <td class="auto-style2">sueldo_empl</td>
                     <td class="auto-style5">
-                        <asp:TextBox ID="tbsueldo" runat="server"></asp:TextBox>
+                        <asp:TextBox ID="tbsueldo" runat="server" Width="244px"></asp:TextBox>
                     </td>
                 </tr>
                 <tr>
@@ -78,12 +78,14 @@
                 <tr>
                     <td class="auto-style2">&nbsp;</td>
                     <td class="auto-style5">
-                        <asp:Button ID="Button1" runat="server" Text="Consultar" OnClick="Button1_Click" />
+                        <asp:Button ID="btnguardar" runat="server" Text="Guardar" OnClick="Button1_Click" />
                     </td>
                 </tr>
                 <tr>
                     <td class="auto-style3"></td>
-                    <td class="auto-style4"></td>
+                    <td class="auto-style4">
+                        <asp:Button ID="btnconsultar" runat="server" OnClick="btnconsultar_Click" Text="Consultar" />
+                    </td>
                 </tr>
             </table>
         </div>

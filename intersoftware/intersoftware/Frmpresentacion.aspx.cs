@@ -7,6 +7,7 @@ using System.Web.UI.WebControls;
 
 using capaEntidad;
 using capaNegocio;
+using capaDatos;
 using System.Data;
 
 namespace intersoftware
@@ -48,5 +49,34 @@ namespace intersoftware
 
 
         }
+
+        protected void btnconsultar_Click(object sender, EventArgs e)
+        {
+
+            DataSet ds = new DataSet();
+
+            oeempleado.Cod_empleado = Convert.ToInt32(tbcodempleado.Text);
+
+            ds = onempleado.consultar_empleado(oeempleado);
+
+            if (ds.Tables[0].Rows.Count == 0)
+            {
+
+                lbresultado.Text = "Empleado no existe";
+
+            }
+            else
+            {
+
+                tbnomempleado.Text = ds.Tables[0].Rows[0]["nom_empleado"].ToString();
+                tbedad.Text = ds.Tables[0].Rows[0]["edad_empleado"].ToString();
+                tbsexo.Text = ds.Tables[0].Rows[0]["sexo_empledo"].ToString();
+                tbsueldo.Text = ds.Tables[0].Rows[0]["sueldo_empl"].ToString();
+
+            }
+
+
+        }
+
     }
 }

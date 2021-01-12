@@ -1,0 +1,9 @@
+C:\Users\gavim\OneDrive\Documents\visual Studio\intersoftware\capaDatos\obj\Debug\capaDatos.csprojAssemblyReference.cache
+C:\Users\gavim\OneDrive\Documents\visual Studio\intersoftware\capaDatos\obj\Debug\capaDatos.csproj.CoreCompileInputs.cache
+C:\Users\gavim\OneDrive\Documents\visual Studio\intersoftware\capaDatos\bin\Debug\capaDatos.dll
+C:\Users\gavim\OneDrive\Documents\visual Studio\intersoftware\capaDatos\bin\Debug\capaDatos.pdb
+C:\Users\gavim\OneDrive\Documents\visual Studio\intersoftware\capaDatos\bin\Debug\capaEntidad.dll
+C:\Users\gavim\OneDrive\Documents\visual Studio\intersoftware\capaDatos\bin\Debug\capaEntidad.pdb
+C:\Users\gavim\OneDrive\Documents\visual Studio\intersoftware\capaDatos\obj\Debug\capaDatos.csproj.CopyComplete
+C:\Users\gavim\OneDrive\Documents\visual Studio\intersoftware\capaDatos\obj\Debug\capaDatos.dll
+C:\Users\gavim\OneDrive\Documents\visual Studio\intersoftware\capaDatos\obj\Debug\capaDatos.pdb
