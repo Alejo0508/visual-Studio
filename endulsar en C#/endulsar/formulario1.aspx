@@ -42,7 +42,7 @@
             <tr>
                 <td class="auto-style6">Pedido</td>
                 <td class="auto-style7">
-                    <asp:TextBox ID="tbpedido" runat="server" Width="256px"></asp:TextBox>
+                    <asp:TextBox ID="tbpedido" runat="server" Width="256px" TextMode="Number"></asp:TextBox>
                 </td>
             </tr>
             <tr>

@@ -55,6 +55,10 @@ constraint aliasped primary key (id_pedido),
 constraint aiaspedcli foreign key(id_cliente1) references cliente(id_cliente),
 constraint aliaspedpro foreign key (id_producto1) references producto(id_producto))
 
+insert into pedido (id_pedido, id_producto1, cantidad_producto, id_cliente1, total, fecha_creacion, fecha_entrega) values (1,1,71366345,60000,'19-01-2021','20-01-2021')
+
+insert into pedido values (1,1,71366345,60000,'01-19-2021','01-20-2021')
+
 select * from pedido
 
 create table pedido_producto(
@@ -84,3 +88,8 @@ create proc  listarPedidos
 @fecha_entrega date
 as
 select * from pedido where @fecha_entrega=fecha_entrega
+
+create proc  listarPedidos2
+@id_pedido int
+as
+select * from pedido where @id_pedido = id_pedido

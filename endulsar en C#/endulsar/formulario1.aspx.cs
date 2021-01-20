@@ -24,13 +24,22 @@ namespace endulsar
         protected void btnGuardar_Click(object sender, EventArgs e)
         {
 
-            oepedido.Id_pedido = Convert.ToInt32(tbpedido);
             oepedido.Id_producto1 = Convert.ToInt32(tbproducto);
             oepedido.Id_cliente1 = Convert.ToInt32(tbcliente);
             oepedido.Cantidad_producto = Convert.ToInt32(tbcantidad);
             oepedido.Fecha_creacion = Convert.ToDateTime(tbFechaPedido);
             oepedido.Fecha_entrega = Convert.ToDateTime(tbFechaEntrega);
             oepedido.Total = Convert.ToDouble(tbTotal);
+
+
+            if (onpedido.crear_pedido(oepedido))
+            {
+                tbrespuesta.Text = "Pedido Guardado";
+            }
+            else
+            {
+                tbrespuesta.Text = "No se pudo guardar pedido";
+            }
 
 
         }
@@ -51,22 +60,16 @@ namespace endulsar
             else
             {
 
-                tbpedido.Text = ds.Tables[0].Rows[0]["id_pedido"].ToString();
-                tbproducto.Text = ds.Tables[0].Rows[0]["id_producto1"].ToString();
-                tbcantidad.Text = ds.Tables[0].Rows[0]["cantidad_producto"].ToString();
-                tbcliente.Text = ds.Tables[0].Rows[0]["id_cliente1"].ToString();
-                tbFechaPedido.Text = ds.Tables[0].Rows[0]["fecha_creacion"].ToString();
-                tbFechaEntrega.Text = ds.Tables[0].Rows[0]["fecha_entrega"].ToString();
-                tbTotal.Text = ds.Tables[0].Rows[0]["total"].ToString();
+                    tbrespuesta.Text = ds.Tables[0].Rows[0]["id_cliente1"].ToString();
 
-                if (onpedido.crear_pedido(oepedido))
-                {
-                    tbrespuesta.Text = "Pedido Guardado";
-                }
-                else
-                {
-                    tbrespuesta.Text = "No se pudo guardar pedido";
-                }
+                    tbpedido.Text = ds.Tables[0].Rows[0]["id_pedido"].ToString();
+                    tbproducto.Text = ds.Tables[0].Rows[0]["id_producto1"].ToString();
+                    tbcantidad.Text = ds.Tables[0].Rows[0]["cantidad_producto"].ToString();
+                    tbcliente.Text = ds.Tables[0].Rows[0]["id_cliente1"].ToString();
+                    tbFechaPedido.Text = ds.Tables[0].Rows[0]["fecha_creacion"].ToString();
+                    tbFechaEntrega.Text = ds.Tables[0].Rows[0]["fecha_entrega"].ToString();
+                    tbTotal.Text = ds.Tables[0].Rows[0]["total"].ToString();
+
 
             }
 

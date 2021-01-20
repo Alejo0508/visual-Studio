@@ -55,7 +55,7 @@ namespace capaDatos
                 ocmd.CommandType = CommandType.StoredProcedure;
                 ocmd.Connection = oconexion.conectar("BDEjemplo");
 
-                ocmd.CommandText = "consultar_empleado";
+                ocmd.CommandText = "sp_listar";
                 ocmd.Parameters.Add("@cod_empleado", oempleado.Cod_empleado);
 
                 SqlDataAdapter da = new SqlDataAdapter(ocmd);
