@@ -89,6 +89,20 @@
       <DependentUpon>Web.config</DependentUpon>
     </None>
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\CapaDato\CapaDato.csproj">
+      <Project>{f4aff203-6e6f-4b03-a097-45787e40534b}</Project>
+      <Name>CapaDato</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\CapaEntidad\CapaEntidad.csproj">
+      <Project>{85b52560-3a7f-434d-b6a6-067445b43e03}</Project>
+      <Name>CapaEntidad</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\CapaNegocio\CapaNegocio.csproj">
+      <Project>{9b693118-da15-4da0-9bdf-c04b5fc82b0e}</Project>
+      <Name>CapaNegocio</Name>
+    </ProjectReference>
+  </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
