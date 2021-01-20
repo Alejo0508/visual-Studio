@@ -55,6 +55,8 @@ constraint aliasped primary key (id_pedido),
 constraint aiaspedcli foreign key(id_cliente1) references cliente(id_cliente),
 constraint aliaspedpro foreign key (id_producto1) references producto(id_producto))
 
+select * from pedido
+
 create table pedido_producto(
 id_pedido1 int not null,
 id_producto2 int,
