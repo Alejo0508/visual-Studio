@@ -4,3 +4,15 @@ C:\Users\taty0\OneDrive\Escritorio\endulsarc#\CapaEntidad\bin\Debug\CapaEntidad.
 C:\Users\taty0\OneDrive\Escritorio\endulsarc#\CapaEntidad\obj\Debug\CapaEntidad.dll
 C:\Users\taty0\OneDrive\Escritorio\endulsarc#\CapaEntidad\obj\Debug\CapaEntidad.pdb
 C:\Users\taty0\OneDrive\Escritorio\endulsarc#\CapaEntidad\obj\Debug\CapaEntidad.csprojAssemblyReference.cache
+C:\Users\liseth giraldo\Desktop\lenguaje de programación\endulsar en C#\CapaEntidad\bin\Debug\CapaEntidad.dll
+C:\Users\liseth giraldo\Desktop\lenguaje de programación\endulsar en C#\CapaEntidad\bin\Debug\CapaEntidad.pdb
+C:\Users\liseth giraldo\Desktop\lenguaje de programación\endulsar en C#\CapaEntidad\obj\Debug\CapaEntidad.csprojAssemblyReference.cache
+C:\Users\liseth giraldo\Desktop\lenguaje de programación\endulsar en C#\CapaEntidad\obj\Debug\CapaEntidad.csproj.CoreCompileInputs.cache
+C:\Users\liseth giraldo\Desktop\lenguaje de programación\endulsar en C#\CapaEntidad\obj\Debug\CapaEntidad.dll
+C:\Users\liseth giraldo\Desktop\lenguaje de programación\endulsar en C#\CapaEntidad\obj\Debug\CapaEntidad.pdb
+C:\Users\gavim\OneDrive\Documents\visual Studio\endulsar en C#\CapaEntidad\bin\Debug\CapaEntidad.dll
+C:\Users\gavim\OneDrive\Documents\visual Studio\endulsar en C#\CapaEntidad\bin\Debug\CapaEntidad.pdb
+C:\Users\gavim\OneDrive\Documents\visual Studio\endulsar en C#\CapaEntidad\obj\Debug\CapaEntidad.csproj.CoreCompileInputs.cache
+C:\Users\gavim\OneDrive\Documents\visual Studio\endulsar en C#\CapaEntidad\obj\Debug\CapaEntidad.dll
+C:\Users\gavim\OneDrive\Documents\visual Studio\endulsar en C#\CapaEntidad\obj\Debug\CapaEntidad.pdb
+C:\Users\gavim\OneDrive\Documents\visual Studio\endulsar en C#\CapaEntidad\obj\Debug\CapaEntidad.csprojAssemblyReference.cache

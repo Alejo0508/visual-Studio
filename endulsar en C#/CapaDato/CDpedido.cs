@@ -23,12 +23,14 @@ namespace CapaDato
                 ocmd.CommandType = CommandType.StoredProcedure;
                 ocmd.Connection = oconexion.conectar("BDendulsar");
 
-                ocmd.CommandText = "crear_pedido";
+                ocmd.CommandText = "crear_pedido4";
 
-                ocmd.Parameters.Add("@id_pedido", opedido.Id_pedido);
+        
                 ocmd.Parameters.Add("@id_producto1", opedido.Id_producto1);
                 ocmd.Parameters.Add("@cantidad_producto", opedido.Cantidad_producto);
                 ocmd.Parameters.Add("@id_cliente1", opedido.Id_cliente1);
+                ocmd.Parameters.Add("@fecha_creacion", opedido.Fecha_creacion);
+                ocmd.Parameters.Add("@fecha_entrega", opedido.Fecha_entrega);
                 ocmd.Parameters.Add("@total", opedido.Total);
 
 

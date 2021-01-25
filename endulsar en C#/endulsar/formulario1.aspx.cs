@@ -24,12 +24,19 @@ namespace endulsar
         protected void btnGuardar_Click(object sender, EventArgs e)
         {
 
-            oepedido.Id_producto1 = Convert.ToInt32(tbproducto);
-            oepedido.Id_cliente1 = Convert.ToInt32(tbcliente);
-            oepedido.Cantidad_producto = Convert.ToInt32(tbcantidad);
-            oepedido.Fecha_creacion = Convert.ToDateTime(tbFechaPedido);
-            oepedido.Fecha_entrega = Convert.ToDateTime(tbFechaEntrega);
-            oepedido.Total = Convert.ToDouble(tbTotal);
+            double totalFinal;
+            double total = Convert.ToDouble(tbTotal.Text);
+            int cantidadProducto = Convert.ToInt32(tbcantidad.Text);
+
+            oepedido.Id_producto1 = Convert.ToInt32(tbproducto.Text);
+            oepedido.Id_cliente1 = Convert.ToInt32(tbcliente.Text);
+            oepedido.Cantidad_producto = cantidadProducto;
+            oepedido.Fecha_creacion = tbFechaPedido.Text;
+            oepedido.Fecha_entrega = tbFechaEntrega.Text;
+
+            totalFinal = cantidadProducto * total;
+
+            oepedido.Total = totalFinal;
 
 
             if (onpedido.crear_pedido(oepedido))
@@ -73,6 +80,37 @@ namespace endulsar
 
             }
 
+
+        }
+
+        protected void btnEliminar_Click(object sender, EventArgs e)
+        {
+
+            oepedido.Id_pedido = Convert.ToInt32(tbpedido.Text);
+
+            if (onpedido.eliminar_pedido(oepedido))
+            {
+                tbrespuesta.Text = " pedido eliminado correctamente";
+            }
+            else
+            {
+                tbrespuesta.Text = "No se pudo eliminado pedido";
+            }
+
+        }
+
+        protected void btnlimpiar_Click(object sender, EventArgs e)
+        {
+
+
+            tbpedido.Text = "";
+            tbcantidad.Text = "";
+            tbcliente.Text = "";
+            tbFechaEntrega.Text = "";
+            tbFechaPedido.Text = "";
+            tbproducto.Text = "";
+            tbTotal.Text = "";
+            tbrespuesta.Text = "";
 
         }
     }

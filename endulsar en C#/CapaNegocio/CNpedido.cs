@@ -21,7 +21,7 @@ namespace CapaNegocio
 
         public bool eliminar_pedido(CEpedido oentpedido)
         {
-            return odatpedido.eliminarpedido(oentpedido);
+            return odatpedido .eliminarpedido(oentpedido);
         }
 
         public DataSet consultar_pedido(CEpedido oentpedido)
