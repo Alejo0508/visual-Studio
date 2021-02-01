@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="capas1Model.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="empleados">
+    <Key>
+      <PropertyRef Name="cod_empleado" />
+    </Key>
+    <Property Name="cod_empleado" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="nom_empleado" Type="varchar" MaxLength="30" Nullable="false" />
+    <Property Name="edad_empleado" Type="int" Nullable="false" />
+    <Property Name="sexo_empledo" Type="char" MaxLength="1" Nullable="false" />
+    <Property Name="sueldo_empl" Type="money" Nullable="false" />
+  </EntityType>
+  <EntityContainer Name="capas1ModelStoreContainer">
+    <EntitySet Name="empleados" EntityType="Self.empleados" Schema="dbo" store:Type="Tables" />
+  </EntityContainer>
+</Schema>
