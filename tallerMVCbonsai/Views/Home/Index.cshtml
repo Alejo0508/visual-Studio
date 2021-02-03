@@ -1,0 +1,24 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+<div class="jumbotron">
+    <h1>Tienda del Bonsai</h1>
+    <p class="lead">Una pequeña tienda especializada en bonsais desde semilla y esquejes, ¡venta de arboles desde 8 años en adelante! </p>
+</div>
+
+<div class="row">
+    <div class="col-md-4">
+        <h2>@Html.ActionLink("shohin","index","shohins")</h2>
+        <p>
+            El término japonés Shohin significa “algo pequeño”, por lo que en el argot del Bonsái denota que el tamaño del árbol es incluso menor que el de un Bonsái normal,  comprendido entre 21 y 45 cm
+        </p>
+        <p><a class="btn btn-default" @Html.ActionLink("Ir a inventario","index","shohins")</a></p>
+    </div>
+    <div class="col-md-4">
+        <h2>@Html.ActionLink("Omono","index","Omonoes")</h2>
+        <p>Los Omono tienen un tamaño de entre 60 y 120 cm, por lo que son el equivalente en tamaño a muchos arbustos habituales de ver en parques y jardines. Son lo bastante grandes para resultar llamativos, por lo que se usan muchas veces para presidir el centro de patios o para franquear puertas o lugares de paso.</p>
+        <p><a class="btn btn-default" @Html.ActionLink("Ir a inventario", "index", "Omonoes")</a></p>
+    </div>
+
+</div>

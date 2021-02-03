@@ -1,0 +1,50 @@
+﻿@model crudmvc.Models.empleados
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>empleados</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.nom_empleado)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.nom_empleado)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.edad_empleado)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.edad_empleado)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.sexo_empledo)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.sexo_empledo)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.sueldo_empl)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.sueldo_empl)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.cod_empleado }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

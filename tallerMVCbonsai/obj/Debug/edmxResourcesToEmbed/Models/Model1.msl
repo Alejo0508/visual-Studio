@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="bonsaiModelStoreContainer" CdmEntityContainer="bonsaiEntities">
+    <EntitySetMapping Name="Omono">
+      <EntityTypeMapping TypeName="bonsaiModel.Omono">
+        <MappingFragment StoreEntitySet="Omono">
+          <ScalarProperty Name="cod_Omono" ColumnName="cod_Omono" />
+          <ScalarProperty Name="nombre" ColumnName="nombre" />
+          <ScalarProperty Name="descripcion" ColumnName="descripcion" />
+          <ScalarProperty Name="precio" ColumnName="precio" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="shohin">
+      <EntityTypeMapping TypeName="bonsaiModel.shohin">
+        <MappingFragment StoreEntitySet="shohin">
+          <ScalarProperty Name="cod_shohin" ColumnName="cod_shohin" />
+          <ScalarProperty Name="nombre" ColumnName="nombre" />
+          <ScalarProperty Name="descripcion" ColumnName="descripcion" />
+          <ScalarProperty Name="precio" ColumnName="precio" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

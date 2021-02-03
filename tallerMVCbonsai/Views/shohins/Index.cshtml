@@ -1,0 +1,44 @@
+﻿@model IEnumerable<tallerMVCbonsai.Models.shohin>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Bonsais Shohin</h2>
+
+<p>
+    @Html.ActionLink("Agregar Arbol", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.nombre)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.descripcion)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.precio)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.nombre)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.descripcion)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.precio)
+        </td>
+        <td>
+            @Html.ActionLink("Editar", "Edit", new { id=item.cod_shohin }) |
+            @Html.ActionLink("Eliminar", "Delete", new { id=item.cod_shohin })
+        </td>
+    </tr>
+}
+
+</table>
