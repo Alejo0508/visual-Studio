@@ -1,0 +1,34 @@
+﻿@model escuelaMVC.Models.materia
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>materia</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.nom_m)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.nom_m)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.cred_m)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.cred_m)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.clave_m }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

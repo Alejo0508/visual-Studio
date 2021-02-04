@@ -1,0 +1,182 @@
+C:\Users\gavim\source\repos\escuelaMVC\bin\escuelaMVC.dll.config
+C:\Users\gavim\source\repos\escuelaMVC\bin\escuelaMVC.dll
+C:\Users\gavim\source\repos\escuelaMVC\bin\escuelaMVC.pdb
+C:\Users\gavim\source\repos\escuelaMVC\bin\roslyn\csc.exe
+C:\Users\gavim\source\repos\escuelaMVC\bin\roslyn\csc.exe.config
+C:\Users\gavim\source\repos\escuelaMVC\bin\roslyn\csc.rsp
+C:\Users\gavim\source\repos\escuelaMVC\bin\roslyn\csi.exe
+C:\Users\gavim\source\repos\escuelaMVC\bin\roslyn\csi.exe.config
+C:\Users\gavim\source\repos\escuelaMVC\bin\roslyn\csi.rsp
+C:\Users\gavim\source\repos\escuelaMVC\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\gavim\source\repos\escuelaMVC\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\gavim\source\repos\escuelaMVC\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\gavim\source\repos\escuelaMVC\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\gavim\source\repos\escuelaMVC\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\gavim\source\repos\escuelaMVC\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\gavim\source\repos\escuelaMVC\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\gavim\source\repos\escuelaMVC\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\gavim\source\repos\escuelaMVC\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\gavim\source\repos\escuelaMVC\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\gavim\source\repos\escuelaMVC\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\gavim\source\repos\escuelaMVC\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\gavim\source\repos\escuelaMVC\bin\roslyn\System.AppContext.dll
+C:\Users\gavim\source\repos\escuelaMVC\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\gavim\source\repos\escuelaMVC\bin\roslyn\System.Console.dll
+C:\Users\gavim\source\repos\escuelaMVC\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\gavim\source\repos\escuelaMVC\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\gavim\source\repos\escuelaMVC\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\gavim\source\repos\escuelaMVC\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\gavim\source\repos\escuelaMVC\bin\roslyn\System.IO.Compression.dll
+C:\Users\gavim\source\repos\escuelaMVC\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\gavim\source\repos\escuelaMVC\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\gavim\source\repos\escuelaMVC\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\gavim\source\repos\escuelaMVC\bin\roslyn\System.Net.Http.dll
+C:\Users\gavim\source\repos\escuelaMVC\bin\roslyn\System.Net.Sockets.dll
+C:\Users\gavim\source\repos\escuelaMVC\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\gavim\source\repos\escuelaMVC\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\gavim\source\repos\escuelaMVC\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\gavim\source\repos\escuelaMVC\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\gavim\source\repos\escuelaMVC\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\gavim\source\repos\escuelaMVC\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\gavim\source\repos\escuelaMVC\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\gavim\source\repos\escuelaMVC\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\gavim\source\repos\escuelaMVC\bin\roslyn\System.ValueTuple.dll
+C:\Users\gavim\source\repos\escuelaMVC\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\gavim\source\repos\escuelaMVC\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\gavim\source\repos\escuelaMVC\bin\roslyn\System.Xml.XPath.dll
+C:\Users\gavim\source\repos\escuelaMVC\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\gavim\source\repos\escuelaMVC\bin\roslyn\vbc.exe
+C:\Users\gavim\source\repos\escuelaMVC\bin\roslyn\vbc.exe.config
+C:\Users\gavim\source\repos\escuelaMVC\bin\roslyn\vbc.rsp
+C:\Users\gavim\source\repos\escuelaMVC\bin\roslyn\VBCSCompiler.exe
+C:\Users\gavim\source\repos\escuelaMVC\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\gavim\source\repos\escuelaMVC\bin\Antlr3.Runtime.dll
+C:\Users\gavim\source\repos\escuelaMVC\bin\EntityFramework.dll
+C:\Users\gavim\source\repos\escuelaMVC\bin\EntityFramework.SqlServer.dll
+C:\Users\gavim\source\repos\escuelaMVC\bin\MaterialSkin.dll
+C:\Users\gavim\source\repos\escuelaMVC\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\gavim\source\repos\escuelaMVC\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\gavim\source\repos\escuelaMVC\bin\Newtonsoft.Json.dll
+C:\Users\gavim\source\repos\escuelaMVC\bin\System.Web.Helpers.dll
+C:\Users\gavim\source\repos\escuelaMVC\bin\System.Web.Mvc.dll
+C:\Users\gavim\source\repos\escuelaMVC\bin\System.Web.Optimization.dll
+C:\Users\gavim\source\repos\escuelaMVC\bin\System.Web.Razor.dll
+C:\Users\gavim\source\repos\escuelaMVC\bin\System.Web.WebPages.Deployment.dll
+C:\Users\gavim\source\repos\escuelaMVC\bin\System.Web.WebPages.dll
+C:\Users\gavim\source\repos\escuelaMVC\bin\System.Web.WebPages.Razor.dll
+C:\Users\gavim\source\repos\escuelaMVC\bin\WebGrease.dll
+C:\Users\gavim\source\repos\escuelaMVC\bin\EntityFramework.xml
+C:\Users\gavim\source\repos\escuelaMVC\bin\EntityFramework.SqlServer.xml
+C:\Users\gavim\source\repos\escuelaMVC\bin\System.Web.Helpers.xml
+C:\Users\gavim\source\repos\escuelaMVC\bin\System.Web.Mvc.xml
+C:\Users\gavim\source\repos\escuelaMVC\bin\System.Web.Optimization.xml
+C:\Users\gavim\source\repos\escuelaMVC\bin\System.Web.Razor.xml
+C:\Users\gavim\source\repos\escuelaMVC\bin\System.Web.WebPages.xml
+C:\Users\gavim\source\repos\escuelaMVC\bin\System.Web.WebPages.Deployment.xml
+C:\Users\gavim\source\repos\escuelaMVC\bin\System.Web.WebPages.Razor.xml
+C:\Users\gavim\source\repos\escuelaMVC\bin\Newtonsoft.Json.xml
+C:\Users\gavim\source\repos\escuelaMVC\bin\Antlr3.Runtime.pdb
+C:\Users\gavim\source\repos\escuelaMVC\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\gavim\source\repos\escuelaMVC\bin\es\System.Web.Helpers.resources.dll
+C:\Users\gavim\source\repos\escuelaMVC\bin\es\System.Web.Mvc.resources.dll
+C:\Users\gavim\source\repos\escuelaMVC\bin\es\System.Web.Optimization.resources.dll
+C:\Users\gavim\source\repos\escuelaMVC\bin\es\System.Web.Razor.resources.dll
+C:\Users\gavim\source\repos\escuelaMVC\bin\es\System.Web.WebPages.resources.dll
+C:\Users\gavim\source\repos\escuelaMVC\bin\es\System.Web.WebPages.Deployment.resources.dll
+C:\Users\gavim\source\repos\escuelaMVC\bin\es\System.Web.WebPages.Razor.resources.dll
+C:\Users\gavim\source\repos\escuelaMVC\obj\Debug\escuelaMVC.csproj.CoreCompileInputs.cache
+C:\Users\gavim\source\repos\escuelaMVC\obj\Debug\escuelaMVC.csproj.CopyComplete
+C:\Users\gavim\source\repos\escuelaMVC\obj\Debug\escuelaMVC.dll
+C:\Users\gavim\source\repos\escuelaMVC\obj\Debug\escuelaMVC.pdb
+C:\Users\gavim\source\repos\escuelaMVC\obj\Debug\escuelaMVC.csprojAssemblyReference.cache
+C:\Users\gavim\OneDrive\Documents\visual Studio\escuelaMVC\bin\escuelaMVC.dll.config
+C:\Users\gavim\OneDrive\Documents\visual Studio\escuelaMVC\bin\escuelaMVC.dll
+C:\Users\gavim\OneDrive\Documents\visual Studio\escuelaMVC\bin\escuelaMVC.pdb
+C:\Users\gavim\OneDrive\Documents\visual Studio\escuelaMVC\bin\roslyn\csc.exe
+C:\Users\gavim\OneDrive\Documents\visual Studio\escuelaMVC\bin\roslyn\csc.exe.config
+C:\Users\gavim\OneDrive\Documents\visual Studio\escuelaMVC\bin\roslyn\csc.rsp
+C:\Users\gavim\OneDrive\Documents\visual Studio\escuelaMVC\bin\roslyn\csi.exe
+C:\Users\gavim\OneDrive\Documents\visual Studio\escuelaMVC\bin\roslyn\csi.exe.config
+C:\Users\gavim\OneDrive\Documents\visual Studio\escuelaMVC\bin\roslyn\csi.rsp
+C:\Users\gavim\OneDrive\Documents\visual Studio\escuelaMVC\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\gavim\OneDrive\Documents\visual Studio\escuelaMVC\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\gavim\OneDrive\Documents\visual Studio\escuelaMVC\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\gavim\OneDrive\Documents\visual Studio\escuelaMVC\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\gavim\OneDrive\Documents\visual Studio\escuelaMVC\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\gavim\OneDrive\Documents\visual Studio\escuelaMVC\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\gavim\OneDrive\Documents\visual Studio\escuelaMVC\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\gavim\OneDrive\Documents\visual Studio\escuelaMVC\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\gavim\OneDrive\Documents\visual Studio\escuelaMVC\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\gavim\OneDrive\Documents\visual Studio\escuelaMVC\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\gavim\OneDrive\Documents\visual Studio\escuelaMVC\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\gavim\OneDrive\Documents\visual Studio\escuelaMVC\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\gavim\OneDrive\Documents\visual Studio\escuelaMVC\bin\roslyn\System.AppContext.dll
+C:\Users\gavim\OneDrive\Documents\visual Studio\escuelaMVC\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\gavim\OneDrive\Documents\visual Studio\escuelaMVC\bin\roslyn\System.Console.dll
+C:\Users\gavim\OneDrive\Documents\visual Studio\escuelaMVC\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\gavim\OneDrive\Documents\visual Studio\escuelaMVC\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\gavim\OneDrive\Documents\visual Studio\escuelaMVC\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\gavim\OneDrive\Documents\visual Studio\escuelaMVC\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\gavim\OneDrive\Documents\visual Studio\escuelaMVC\bin\roslyn\System.IO.Compression.dll
+C:\Users\gavim\OneDrive\Documents\visual Studio\escuelaMVC\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\gavim\OneDrive\Documents\visual Studio\escuelaMVC\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\gavim\OneDrive\Documents\visual Studio\escuelaMVC\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\gavim\OneDrive\Documents\visual Studio\escuelaMVC\bin\roslyn\System.Net.Http.dll
+C:\Users\gavim\OneDrive\Documents\visual Studio\escuelaMVC\bin\roslyn\System.Net.Sockets.dll
+C:\Users\gavim\OneDrive\Documents\visual Studio\escuelaMVC\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\gavim\OneDrive\Documents\visual Studio\escuelaMVC\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\gavim\OneDrive\Documents\visual Studio\escuelaMVC\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\gavim\OneDrive\Documents\visual Studio\escuelaMVC\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\gavim\OneDrive\Documents\visual Studio\escuelaMVC\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\gavim\OneDrive\Documents\visual Studio\escuelaMVC\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\gavim\OneDrive\Documents\visual Studio\escuelaMVC\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\gavim\OneDrive\Documents\visual Studio\escuelaMVC\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\gavim\OneDrive\Documents\visual Studio\escuelaMVC\bin\roslyn\System.ValueTuple.dll
+C:\Users\gavim\OneDrive\Documents\visual Studio\escuelaMVC\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\gavim\OneDrive\Documents\visual Studio\escuelaMVC\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\gavim\OneDrive\Documents\visual Studio\escuelaMVC\bin\roslyn\System.Xml.XPath.dll
+C:\Users\gavim\OneDrive\Documents\visual Studio\escuelaMVC\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\gavim\OneDrive\Documents\visual Studio\escuelaMVC\bin\roslyn\vbc.exe
+C:\Users\gavim\OneDrive\Documents\visual Studio\escuelaMVC\bin\roslyn\vbc.exe.config
+C:\Users\gavim\OneDrive\Documents\visual Studio\escuelaMVC\bin\roslyn\vbc.rsp
+C:\Users\gavim\OneDrive\Documents\visual Studio\escuelaMVC\bin\roslyn\VBCSCompiler.exe
+C:\Users\gavim\OneDrive\Documents\visual Studio\escuelaMVC\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\gavim\OneDrive\Documents\visual Studio\escuelaMVC\bin\Antlr3.Runtime.dll
+C:\Users\gavim\OneDrive\Documents\visual Studio\escuelaMVC\bin\EntityFramework.dll
+C:\Users\gavim\OneDrive\Documents\visual Studio\escuelaMVC\bin\EntityFramework.SqlServer.dll
+C:\Users\gavim\OneDrive\Documents\visual Studio\escuelaMVC\bin\MaterialSkin.dll
+C:\Users\gavim\OneDrive\Documents\visual Studio\escuelaMVC\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\gavim\OneDrive\Documents\visual Studio\escuelaMVC\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\gavim\OneDrive\Documents\visual Studio\escuelaMVC\bin\Newtonsoft.Json.dll
+C:\Users\gavim\OneDrive\Documents\visual Studio\escuelaMVC\bin\System.Web.Helpers.dll
+C:\Users\gavim\OneDrive\Documents\visual Studio\escuelaMVC\bin\System.Web.Mvc.dll
+C:\Users\gavim\OneDrive\Documents\visual Studio\escuelaMVC\bin\System.Web.Optimization.dll
+C:\Users\gavim\OneDrive\Documents\visual Studio\escuelaMVC\bin\System.Web.Razor.dll
+C:\Users\gavim\OneDrive\Documents\visual Studio\escuelaMVC\bin\System.Web.WebPages.Deployment.dll
+C:\Users\gavim\OneDrive\Documents\visual Studio\escuelaMVC\bin\System.Web.WebPages.dll
+C:\Users\gavim\OneDrive\Documents\visual Studio\escuelaMVC\bin\System.Web.WebPages.Razor.dll
+C:\Users\gavim\OneDrive\Documents\visual Studio\escuelaMVC\bin\WebGrease.dll
+C:\Users\gavim\OneDrive\Documents\visual Studio\escuelaMVC\bin\EntityFramework.xml
+C:\Users\gavim\OneDrive\Documents\visual Studio\escuelaMVC\bin\EntityFramework.SqlServer.xml
+C:\Users\gavim\OneDrive\Documents\visual Studio\escuelaMVC\bin\System.Web.Helpers.xml
+C:\Users\gavim\OneDrive\Documents\visual Studio\escuelaMVC\bin\System.Web.Mvc.xml
+C:\Users\gavim\OneDrive\Documents\visual Studio\escuelaMVC\bin\System.Web.Optimization.xml
+C:\Users\gavim\OneDrive\Documents\visual Studio\escuelaMVC\bin\System.Web.Razor.xml
+C:\Users\gavim\OneDrive\Documents\visual Studio\escuelaMVC\bin\System.Web.WebPages.xml
+C:\Users\gavim\OneDrive\Documents\visual Studio\escuelaMVC\bin\System.Web.WebPages.Deployment.xml
+C:\Users\gavim\OneDrive\Documents\visual Studio\escuelaMVC\bin\System.Web.WebPages.Razor.xml
+C:\Users\gavim\OneDrive\Documents\visual Studio\escuelaMVC\bin\Newtonsoft.Json.xml
+C:\Users\gavim\OneDrive\Documents\visual Studio\escuelaMVC\bin\Antlr3.Runtime.pdb
+C:\Users\gavim\OneDrive\Documents\visual Studio\escuelaMVC\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\gavim\OneDrive\Documents\visual Studio\escuelaMVC\bin\es\System.Web.Helpers.resources.dll
+C:\Users\gavim\OneDrive\Documents\visual Studio\escuelaMVC\bin\es\System.Web.Mvc.resources.dll
+C:\Users\gavim\OneDrive\Documents\visual Studio\escuelaMVC\bin\es\System.Web.Optimization.resources.dll
+C:\Users\gavim\OneDrive\Documents\visual Studio\escuelaMVC\bin\es\System.Web.Razor.resources.dll
+C:\Users\gavim\OneDrive\Documents\visual Studio\escuelaMVC\bin\es\System.Web.WebPages.resources.dll
+C:\Users\gavim\OneDrive\Documents\visual Studio\escuelaMVC\bin\es\System.Web.WebPages.Deployment.resources.dll
+C:\Users\gavim\OneDrive\Documents\visual Studio\escuelaMVC\bin\es\System.Web.WebPages.Razor.resources.dll
+C:\Users\gavim\OneDrive\Documents\visual Studio\escuelaMVC\obj\Debug\escuelaMVC.csprojAssemblyReference.cache
+C:\Users\gavim\OneDrive\Documents\visual Studio\escuelaMVC\obj\Debug\escuelaMVC.csproj.CoreCompileInputs.cache
+C:\Users\gavim\OneDrive\Documents\visual Studio\escuelaMVC\obj\Debug\escuelaMVC.csproj.CopyComplete
+C:\Users\gavim\OneDrive\Documents\visual Studio\escuelaMVC\obj\Debug\escuelaMVC.dll
+C:\Users\gavim\OneDrive\Documents\visual Studio\escuelaMVC\obj\Debug\escuelaMVC.pdb

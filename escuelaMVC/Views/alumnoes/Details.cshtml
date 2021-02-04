@@ -1,0 +1,58 @@
+﻿@model escuelaMVC.Models.alumno
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>alumno</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.nom_alu)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.nom_alu)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.edad_alu)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.edad_alu)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.sem_alu)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.sem_alu)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.gen_alu)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.gen_alu)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.carrera.nom_c)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.carrera.nom_c)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.mat_alu }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

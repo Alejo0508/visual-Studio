@@ -1,0 +1,59 @@
+﻿@model escuelaMVC.Models.materia
+
+@{
+    ViewBag.Title = "Edit";
+}
+
+<div class="jumbotron" style="border:solid 2px #ef6c00">
+    <div class="row">
+        <div class="col-md-8" style="margin-top: 50px;">
+            <h1 style="color: #ef6c00;">Editar Materia</h1>
+            <p class="lead">¿Algo cambio?, esta bien.</p>
+        </div>
+        <img style="height: 300px; width: 250px;" src="data:image/svg+xml;base64,PHN2ZyBoZWlnaHQ9IjUxMiIgdmlld0JveD0iMCAwIDUxMiA1MTIiIHdpZHRoPSI1MTIiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGcgaWQ9IkVkaXQtMiIgZGF0YS1uYW1lPSJFZGl0Ij48cmVjdCBmaWxsPSIjZmZkYTQ0IiBoZWlnaHQ9IjQ0MCIgcng9IjMyIiB3aWR0aD0iMjk2IiB4PSIxNiIgeT0iNTgiLz48cGF0aCBkPSJtMjEwLjA3IDMzNy45MS00Ni43OCAxMC44IDEwLjgtNDYuNzh6IiBmaWxsPSIjNWY0ZDM3Ii8+PHBhdGggZD0ibTI0OC4xNSAzMjAuNDItMTEuMzIgMTEuMzItMjYuNzYgNi4xNy0zNS45OC0zNS45OCA2LjE3LTI2Ljc2IDExLjMyLTExLjMyeiIgZmlsbD0iI2UwZTBlMiIvPjxwYXRoIGQ9Im00NzYuNTggOTEuOTktMTYuOTEgMTYuOTEtNTUuMjgtNTcuODYgMTYuMDUtMTYuMDV6IiBmaWxsPSIjY2NhNDAwIi8+PHBhdGggZD0ibTQwNC4zOSA1MS4wNCA1NS4yOCA1Ny44Ni0yMTEuNTIgMjExLjUyLTU2LjU3LTU2LjU3eiIgZmlsbD0iI2ZmNTAyMyIvPjxwYXRoIGQ9Im00ODcuMzYgODEuMjEtMTAuNzggMTAuNzgtNTYuMTQtNTcgMTAuMzUtMTAuMzVhMzIgMzIgMCAwIDEgNDUuMjYgMGwxMS4zMSAxMS4zMWEzMiAzMiAwIDAgMSAwIDQ1LjI2eiIgZmlsbD0iI2UwZTBlMiIvPjxwYXRoIGQ9Im0yMTIuNTUgMzQwLjM5LTIuNDgtMi40OCIgZmlsbD0ibm9uZSIvPjxwYXRoIGQ9Im0xNzQuMDkgMzAxLjkzLTIuNDgtMi40OCIgZmlsbD0ibm9uZSIvPjxwYXRoIGQ9Im01MDQuNzM1IDU4LjU3OWEzOS43NDYgMzkuNzQ2IDAgMCAwIC0xMS43MTUtMjguMjg1bC0xMS4zMTQtMTEuMzEzYTQwLjA0NCA0MC4wNDQgMCAwIDAgLTU2LjU2OSAwbC0xMDUuMTM3IDEwNS4xMzZ2LTM2LjExN2E0MC4wNDUgNDAuMDQ1IDAgMCAwIC00MC00MGgtMjMyYTQwLjA0NSA0MC4wNDUgMCAwIDAgLTQwIDQwdjM3NmE0MC4wNDUgNDAuMDQ1IDAgMCAwIDQwIDQwaDIzMmE0MC4wNDUgNDAuMDQ1IDAgMCAwIDQwLTQwdi0yMDQuMTE4bDE3My4wMi0xNzMuMDE5YTM5Ljc0MiAzOS43NDIgMCAwIDAgMTEuNzE1LTI4LjI4NHptLTQ1LjY1NyAzOS42LTQ1LjI1NC00NS4yNTcgNS42NTYtNS42NTcgNDUuMjU0IDQ1LjI1NXptLTIyNi4yNzggMjI2LjI3Ny0yMS4wMjEgNC44NTEtMjkuMDg1LTI5LjA4NSA0Ljg1MS0yMS4wMjEgNC4wMzQtNC4wMzQgNDUuMjU1IDQ1LjI1NHptLTU0LjM0OS01Ljg0OSAxNC45NDMgMTQuOTQyLTE5LjQyNSA0LjQ4M3ptNjkuNy05LjUtNDUuMjU0LTQ1LjI1NCAxOTkuNjEzLTE5OS42MTcgNDUuMjU0IDQ1LjI1NHptNTUuODQ5IDE1NC44OTNhMjQuMDI4IDI0LjAyOCAwIDAgMSAtMjQgMjRoLTIzMmEyNC4wMjggMjQuMDI4IDAgMCAxIC0yNC0yNHYtMzc2YTI0LjAyOCAyNC4wMjggMCAwIDEgMjQtMjRoMjMyYTI0LjAyOCAyNC4wMjggMCAwIDEgMjQgMjR2NTIuMTE3bC0xMjkuMzkzIDEyOS4zOTNhOC4wMDUgOC4wMDUgMCAwIDAgLTIuMTM3IDMuODU4bC0xNi45NyA3My41MzlhOCA4IDAgMCAwIDkuNTk0IDkuNTkzbDczLjUzOS0xNi45N2E4IDggMCAwIDAgMy44NTgtMi4xMzhsNjEuNTA5LTYxLjUxem0xNzcuNzA1LTM4OC40NTEtNS42NTYgNS42NTctNDUuMjU1LTQ1LjI1NSA1LjY1Ny01LjY1N2EyNC4wMjggMjQuMDI4IDAgMCAxIDMzLjk0MSAwbDExLjMxMyAxMS4zMTRhMjQgMjQgMCAwIDEgMCAzMy45NDF6Ii8+PHBhdGggZD0ibTQwMi41MSA5OC4xNzctMTI4LjE2NyAxMjguMTY2YTggOCAwIDAgMCAxMS4zMTQgMTEuMzE0bDEyOC4xNjctMTI4LjE2N2E4IDggMCAxIDAgLTExLjMxNC0xMS4zMTN6Ii8+PHBhdGggZD0ibTI1My44MDUgMjQ2Ljg4Mi01LjY1OCA1LjY1N2E4IDggMCAxIDAgMTEuMzEzIDExLjMxNGw1LjY1Ny01LjY1N2E4IDggMCAxIDAgLTExLjMxMi0xMS4zMTR6Ii8+PHBhdGggZD0ibTk2IDQ1NmgtNDhhOCA4IDAgMCAwIDAgMTZoNDhhOCA4IDAgMCAwIDAtMTZ6Ii8+PHBhdGggZD0ibTEyOCA0NTZoLThhOCA4IDAgMCAwIDAgMTZoOGE4IDggMCAwIDAgMC0xNnoiLz48L2c+PC9zdmc+" />
+        <div class="col-md-4">
+        </div>
+    </div>
+</div>
+
+
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+    
+    <div class="form-horizontal">
+
+
+        <hr />
+        @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+        @Html.HiddenFor(model => model.clave_m)
+
+        <div class="form-group" style="margin-left: 180px;">
+            <div class="col-md-6">
+                <a style="margin-bottom: 10px; font-size:18px;">Nombre</a>
+                @Html.EditorFor(model => model.nom_m, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.nom_m, "", new { @class = "text-danger" })
+            </div>
+
+            <div class="col-md-6">
+                <a style="margin-bottom: 10px; font-size:18px;">Creditos</a>
+                @Html.EditorFor(model => model.cred_m, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.cred_m, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            <div class="col-md-offset-2 col-md-10" style="margin-left: 530px; margin-top: 40px;">
+                <input type="submit" value="Guardar" class="btn btn-primary" />
+            </div>
+        </div>
+    </div>
+}
+
+<div>
+    @Html.ActionLink("Volver", "Index")
+</div>
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}

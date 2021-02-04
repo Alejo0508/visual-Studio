@@ -1,0 +1,50 @@
+﻿@model escuelaMVC.Models.materia
+
+@{
+    ViewBag.Title = "Delete";
+}
+
+<div class="jumbotron" style="border:solid 2px #ef6c00">
+    <div class="row">
+        <div class="col-md-8" style="margin-top: 50px;">
+            <h1 style="color: #ef6c00;">Eliminaremos la materia</h1>
+            <p class="lead">No te preocupes, solo es por un tiempo corto.</p>
+        </div>
+
+        <div class="col-md-4">
+            <img style="height: 300px; width: 250px; margin-right: 50px; " src="data:image/svg+xml;base64,PHN2ZyBpZD0iTGF5ZXJfMyIgZW5hYmxlLWJhY2tncm91bmQ9Im5ldyAwIDAgNjQgNjQiIGhlaWdodD0iNTEyIiB2aWV3Qm94PSIwIDAgNjQgNjQiIHdpZHRoPSI1MTIiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PHBhdGggZD0ibTM4IDEwdi04aC0zMnYxMiA0aDEwYzEuMjYgMCAyLjQ0LjU5IDMuMiAxLjZsMS44IDIuNGgyNXYtOC00eiIgZmlsbD0iI2ZjZDc3MCIvPjxwYXRoIGQ9Im00NiAxMGgtOHYtOHoiIGZpbGw9IiNiNGRkN2YiLz48cGF0aCBkPSJtMiAyNnYyMGMwIDIuMjEgMS43OSA0IDQgNGg0NHYtMjR6IiBmaWxsPSIjZTZlOWVkIi8+PHBhdGggZD0ibTUwIDI2aC00OHYtNGMwLTIuMjEgMS43OS00IDQtNGgxMGMxLjI2IDAgMi40NC41OSAzLjIgMS42bDEuOCAyLjRoMjVjMi4yMSAwIDQgMS43OSA0IDR6IiBmaWxsPSIjZmY4MjZlIi8+PHBhdGggZD0ibTE4IDQzdjJjMCAuNTUtLjQ1IDEtMSAxaC0xMGMtLjU1IDAtMS0uNDUtMS0xdi0yYzAtLjU1LjQ1LTEgMS0xaDEwYy41NSAwIDEgLjQ1IDEgMXoiIGZpbGw9IiNmY2Q3NzAiLz48cGF0aCBkPSJtNTAgMzIuM2M2Ljg1IDEuMzkgMTIgNy40NSAxMiAxNC43IDAgOC4yOC02LjcyIDE1LTE1IDE1LTcuMjUgMC0xMy4zMS01LjE1LTE0LjctMTItLjItLjk3LS4zLTEuOTctLjMtMyAwLTguMjggNi43Mi0xNSAxNS0xNSAxLjAzIDAgMi4wMy4xIDMgLjN6IiBmaWxsPSIjZmZlYWE3Ii8+PHBhdGggZD0ibTQ3IDQyaDZsLS44NyAxMi4xNGMtLjA3IDEuMDUtLjk0IDEuODYtMS45OSAxLjg2aC0xLjE0LTQtMS4xNGMtMS4wNSAwLTEuOTItLjgxLTEuOTktMS44NmwtLjg3LTEyLjE0eiIgZmlsbD0iI2I0ZGQ3ZiIvPjxjaXJjbGUgY3g9IjQ3IiBjeT0iNDAiIGZpbGw9IiNhMGQ0NjgiIHI9IjIiLz48cGF0aCBkPSJtNTEgMzEuNTI3di01LjUyN2MwLTIuNDE0LTEuNzIxLTQuNDM0LTQtNC44OTl2LTExLjUxNWwtOC41ODYtOC41ODZoLTMzLjQxNHYxNi4xMDFjLTIuMjc5LjQ2NS00IDIuNDg1LTQgNC44OTl2MjRjMCAyLjc1NyAyLjI0MyA1IDUgNWgyNS41MjdjMS43ODMgNi44ODkgOC4wMzQgMTIgMTUuNDczIDEyIDguODIyIDAgMTYtNy4xNzggMTYtMTYgMC03LjQzOS01LjExMS0xMy42OS0xMi0xNS40NzN6bS0xMi0yNy4xMTMgNC41ODYgNC41ODZoLTQuNTg2em0tMi0xLjQxNHY4aDh2MTBoLTIzLjVsLTEuNS0yYy0uOTM5LTEuMjUyLTIuNDM1LTItNC0yaC05di0xNHptLTMxIDE2aDEwYy45MzkgMCAxLjgzNy40NDkgMi40IDEuMmwyLjEgMi44aDI1LjVjMS4zMDIgMCAyLjQwMi44MzkgMi44MTYgMmgtNDUuODE2di0zYzAtMS42NTQgMS4zNDYtMyAzLTN6bTAgMzBjLTEuNjU0IDAtMy0xLjM0Ni0zLTN2LTE5aDQ2djQuMTM5Yy0uNjU3LS4wODMtMS4zMjEtLjEzOS0yLS4xMzktOC44MjIgMC0xNiA3LjE3OC0xNiAxNiAwIC42NzkuMDU2IDEuMzQzLjEzOSAyem00MSAxMmMtNy43MiAwLTE0LTYuMjgtMTQtMTRzNi4yOC0xNCAxNC0xNCAxNCA2LjI4IDE0IDE0LTYuMjggMTQtMTQgMTR6Ii8+PHBhdGggZD0ibTUgMjFoMnYyaC0yeiIvPjxwYXRoIGQ9Im05IDIxaDJ2MmgtMnoiLz48cGF0aCBkPSJtMTMgMjFoMnYyaC0yeiIvPjxwYXRoIGQ9Im01MCA0MGMwLTEuNjU0LTEuMzQ2LTMtMy0zcy0zIDEuMzQ2LTMgM2MwIC4zNTIuMDcyLjY4Ni4xODQgMWgtNi4xODR2MmgyLjA2OWwuODAxIDExLjIxNGMuMTExIDEuNTYyIDEuNDI2IDIuNzg2IDIuOTkyIDIuNzg2aDYuMjc1YzEuNTY2IDAgMi44ODEtMS4yMjQgMi45OTMtMi43ODZsLjgwMS0xMS4yMTRoMi4wNjl2LTJoLTYuMTg0Yy4xMTItLjMxNC4xODQtLjY0OC4xODQtMXptLTQgMGMwLS41NTIuNDQ5LTEgMS0xczEgLjQ0OCAxIDEtLjQ0OSAxLTEgMS0xLS40NDgtMS0xem01LjEzNSAxNC4wNzFjLS4wMzcuNTIxLS40NzUuOTI5LS45OTcuOTI5aC0uMTM4di0xMGgtMnYxMGgtMnYtMTBoLTJ2MTBoLS4xMzhjLS41MjIgMC0uOTYtLjQwOC0uOTk4LS45MjlsLS43OS0xMS4wNzFoOS44NTJ6Ii8+PHBhdGggZD0ibTE3IDQxaC0xMGMtMS4xMDMgMC0yIC44OTctMiAydjJjMCAxLjEwMy44OTcgMiAyIDJoMTBjMS4xMDMgMCAyLS44OTcgMi0ydi0yYzAtMS4xMDMtLjg5Ny0yLTItMnptLTEwIDR2LTJoMTBsLjAwMSAyeiIvPjxwYXRoIGQ9Im05IDVoMnYyaC0yeiIvPjxwYXRoIGQ9Im0xMyA1aDIydjJoLTIyeiIvPjxwYXRoIGQ9Im05IDloMjZ2MmgtMjZ6Ii8+PHBhdGggZD0ibTkgMTNoMzR2MmgtMzR6Ii8+PHBhdGggZD0ibTIzIDE3aDIwdjJoLTIweiIvPjxwYXRoIGQ9Im03IDMxaDR2LTJoLTZ2NmgyeiIvPjxwYXRoIGQ9Im01IDM3aDJ2MmgtMnoiLz48L3N2Zz4=" />
+        </div>
+    </div>
+</div>
+
+<div>
+
+    <hr />
+    <dl class="dl-horizontal" style="font-size:18px;">
+        <dt>
+            Nombre
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.nom_m)
+        </dd>
+
+        <dt>
+            Creditos
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.cred_m)
+        </dd>
+
+    </dl>
+
+    @using (Html.BeginForm()) {
+        @Html.AntiForgeryToken()
+
+        <div class="form-actions no-color">
+            <input type="submit" value="Eliminar" class="btn btn-primary" /> |
+            @Html.ActionLink("Volver", "Index")
+        </div>
+    }
+</div>

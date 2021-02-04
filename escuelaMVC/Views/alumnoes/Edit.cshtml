@@ -1,0 +1,78 @@
+﻿@model escuelaMVC.Models.alumno
+
+@{
+    ViewBag.Title = "Edit";
+}
+
+<div class="jumbotron" style="border:solid 2px #ef6c00">
+    <div class="row">
+        <div class="col-md-8" style="margin-top: 50px;">
+            <h1 style="color: #ef6c00;">Editar Informacion</h1>
+            <p class="lead">Edita la informacion del alumno que necesites.</p>
+        </div>
+
+        <div class="col-md-4">
+            <img style="height: 300px; width: 250px;" src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIj8+CjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiBpZD0iTGF5ZXJfMSIgZGF0YS1uYW1lPSJMYXllciAxIiB2aWV3Qm94PSIwIDAgNTEyIDUxMiIgd2lkdGg9IjUxMiIgaGVpZ2h0PSI1MTIiPjx0aXRsZT5lZGl0PC90aXRsZT48cG9seWdvbiBwb2ludHM9IjQxNS4yNSAzMDkuNzQgNDYyLjY2IDM1Ny4xNiA0MzYuNTkgMzgzLjI0IDQzNi41OCAzODMuMjMgMzg5LjE3IDMzNS44MiA0MTUuMjUgMzA5Ljc0IiBzdHlsZT0iZmlsbDojZjhlYzdkIi8+PHBvbHlnb24gcG9pbnRzPSI0MzYuNTkgMzgzLjI0IDM0OS45IDQ2OS45MiAzMDIuNDggNDIyLjUgMzQ1Ljc3IDM3OS4yMiAzODkuMTcgMzM1LjgyIDQzNi41OCAzODMuMjMgNDM2LjU5IDM4My4yNCIgc3R5bGU9ImZpbGw6IzZmZTNmZiIvPjxwb2x5Z29uIHBvaW50cz0iMzQ5LjkgNDY5LjkyIDI3OC43NyA0OTMuNjMgMjg1Ljg2IDQ3Mi4zNSAyODUuODcgNDcyLjM1IDMwMi40OCA0MjIuNSAzNDkuOSA0NjkuOTIiIHN0eWxlPSJmaWxsOiNmOGVjN2QiLz48cGF0aCBkPSJNMzQ1Ljc3LDM3OS4yMiwzMDIuNDgsNDIyLjVsLTE2LjYxLDQ5Ljg1SDQ5LjM0VjQyMC43NmE1MC44NTgsNTAuODU4LDAsMCwxLDEuMjMtMTEuNTRjLjE2LS42OC4zMy0xLjM1LjUxLTIuMDIsNC43OC0xNy4zOSwxOC4zOS0zMC45NiwzNS41NC0zNi41Mmw3NS41Ny0yNC41YTk2LjI5Miw5Ni4yOTIsMCwwLDAsOTEuNjIsMGw3NS41NiwyNC41QTU1LjQ3NSw1NS40NzUsMCwwLDEsMzQ1Ljc3LDM3OS4yMloiIHN0eWxlPSJmaWxsOiNlNDhlNjYiLz48cGF0aCBkPSJNMjUzLjcsMzA0LjcyYTk1Ljc3Miw5NS43NzIsMCwwLDEtMTM5LjgyLTY2LjQ2bC01LjMyLTE4LjMxdi0uMTVhMjUuODU0LDI1Ljg1NCwwLDAsMS0yMC42MS0zMS42LDE5LjQ2MiwxOS40NjIsMCwwLDEsMTcuMy0xNC44di42YTEzLjYyMiwxMy42MjIsMCwwLDAsNi45OCwxLjkzLDEzLjc3NSwxMy43NzUsMCwwLDAsMTMuNzgtMTMuMTZsMS43LTM3LjMxYTMwOC4yNDYsMzA4LjI0NiwwLDAsMCwzNi4zNi0uOTNjNTguOSw1Mi40OCwxNDYuNzEsNDkuMTEsMTQ2LjcxLDQ5LjExdi0uMjNhMTkuNDIxLDE5LjQyMSwwLDAsMSwxNy4yNiwxNC43OSwyNi4wMzksMjYuMDM5LDAsMCwxLC43NCw2LjE2LDI1Ljg0NiwyNS44NDYsMCwwLDEtMjEuMzUsMjUuNDR2LjE1bC01LjMyLDE4LjMxQTk1LjY5LDk1LjY5LDAsMCwxLDI1My43LDMwNC43MloiIHN0eWxlPSJmaWxsOiNmN2NhYTUiLz48cGF0aCBkPSJNMzEwLjc4LDE3My40MXYuMjNzLTg3LjgxLDMuMzctMTQ2LjcxLTQ5LjExYTMwMy44OTIsMzAzLjg5MiwwLDAsMCw1NS4yLTkuMjVzMjguOTcsMzcuMjgsOTEuNTEsNDEuMzFaIiBzdHlsZT0iZmlsbDojM2I0ODRjIi8+PHBhdGggZD0iTTIxOS4yNywxMTUuMjhhMzAzLjg5MiwzMDMuODkyLDAsMCwxLTU1LjIsOS4yNSwzMDguMjQ2LDMwOC4yNDYsMCwwLDEtMzYuMzYuOTNsLTEuNywzNy4zMWExMy43NzUsMTMuNzc1LDAsMCwxLTEzLjc4LDEzLjE2LDEzLjYyMiwxMy42MjIsMCwwLDEtNi45OC0xLjkzVjEyMS4xNGExMDIuNzY1LDEwMi43NjUsMCwxLDEsMjA1LjUzLDB2MzUuNDVDMjQ4LjI0LDE1Mi41NiwyMTkuMjcsMTE1LjI4LDIxOS4yNywxMTUuMjhaIiBzdHlsZT0iZmlsbDojNmQ3Mzc1Ii8+PHBhdGggZD0iTTI1My43LDM0Ni4xNWwuMTEuMDNhOTYuMjkyLDk2LjI5MiwwLDAsMS05MS42MiwwbC4xLS4wM1YzMDQuNzJhOTUuNzY4LDk1Ljc2OCwwLDAsMCw5MS40MSwwWiIgc3R5bGU9ImZpbGw6I2VkYjI4OCIvPjxwYXRoIGQ9Ik00MjAuMiwzMDQuNzkxYTcsNywwLDAsMC05LjksMGwtNjUuNCw2NS4zOTFhNjIuMzIxLDYyLjMyMSwwLDAsMC0xMy4zNzQtNi4xNkwyNjAuNywzNDEuMDU1di0zMi4yOGExMDIuMzMsMTAyLjMzLDAsMCwwLDQ4LjIyNi02OC44ODNsNC4xNTUtMTQuM2EzMi44NiwzMi44NiwwLDAsMCwyMS43NTktMzkuMDUzLDI2LjIsMjYuMiwwLDAsMC0xNy4wNi0xOC43MjRWMTIxLjE0YTEwOS43NjUsMTA5Ljc2NSwwLDEsMC0yMTkuNTMsMFYxNjcuOGEyNi4yMzcsMjYuMjM3LDAsMCwwLTE3LjEsMTguNzQ0QTMyLjg2OSwzMi44NjksMCwwLDAsMTAyLjkxMSwyMjUuNmw0LjE1MywxNC4yOTVhMTAyLjYxNywxMDIuNjE3LDAsMCwwLDQ4LjIyNiw2OC44NzJ2MzIuMjk0TDg0LjQ2MSwzNjQuMDIxYy0xOS43NzgsNi40MTMtMzQuNzgsMjEuODYxLTQwLjE0Miw0MS4zNjYtLjIuNzM5LS4zODUsMS40NzctLjU2NiwyLjI0NkE1Ny4yODMsNTcuMjgzLDAsMCwwLDQyLjM0LDQyMC43NnY1MS41OWE3LDcsMCwwLDAsNyw3SDI3Ni4xNWwtNC4wMjEsMTIuMDY3YTcsNywwLDAsMCw4Ljg1NCw4Ljg1NGw3MS4xMzEtMjMuNzFjLjAzOC0uMDEzLjA3NC0uMDMyLjExMi0uMDQ1LjIwNy0uMDczLjQxMS0uMTU3LjYxMi0uMjUuMDU4LS4wMjcuMTE4LS4wNTIuMTc2LS4wODFhNy4wMTQsNy4wMTQsMCwwLDAsLjctLjM5NWwuMDE0LS4wMDlhNi45NjksNi45NjksMCwwLDAsLjY1OC0uNDljLjA2LS4wNTEuMTE2LS4xMDYuMTc1LS4xNTguMS0uMDg3LjItLjE3LjI5LS4yNjNsODYuNjktODYuNjgxLDI2LjA3LTI2LjA4YTcsNywwLDAsMCwwLTkuOVpNMzQ5LjksNDYwLjAyLDMxMi4zODEsNDIyLjVsNzYuNzg3LTc2Ljc4MSwzNy41MTgsMzcuNTE3Wk0xNjkuMjksMzE1Ljc0OWExMDIuNiwxMDIuNiwwLDAsMCw3Ny40MSwwdjI2LjE5MWE4OC45NzcsODguOTc3LDAsMCwxLTc3LjQxLS4wMDdabTQ3LjU3Ny0xOTIuNmM4LjkxLDkuNDg5LDM2Ljk1NCwzNC43MzYsODYuOTEzLDM5Ljg3M3YzLjYwN2MtMTkuMzI0LS40NTctNzYuNDU4LTQuNjU1LTEyMS45MzQtMzYuOUEyOTUuNDU3LDI5NS40NTcsMCwwLDAsMjE2Ljg2NywxMjMuMTQ3Wk0xMTIuMjUsMTIxLjE0YTk1Ljc2NSw5NS43NjUsMCwxLDEsMTkxLjUzLDB2MjcuNzgyYy0zNi43MTUtNC4xNy02MC4yMTgtMjAuNDUtNzEuMzYyLTMwLjI4OCwxOC44Mi02LjE4LDM0Ljg0LTE0LjI3Niw0Ny43MTMtMjQuMTUxYTcsNywwLDEsMC04LjUyMi0xMS4xMDdjLTEzLjkyMSwxMC42NzgtMzIuMTMyLDE5LjEzNC01NC4xMjgsMjUuMTM1bC0uMDU5LjAxN2EyOTMuODg0LDI5My44ODQsMCwwLDEtNTMuOTA2LDkuMDI0LDMwNC43ODQsMzA0Ljc4NCwwLDAsMS0zNS40NDYuOTE4LDcsNywwLDAsMC03LjM1Myw2LjY3MmwtMS43LDM3LjMxM2E2Ljc4MSw2Ljc4MSwwLDAsMS02Ljc2Nyw2LjQ3NVptOC41MDksMTE1LjgyNmE2LjY0OSw2LjY0OSwwLDAsMC0uMTU3LS42NTlMMTE1LjQ1NiwyMTguNmE3LDcsMCwwLDAtNS42OS01LjdBMTguNzgxLDE4Ljc4MSwwLDAsMSw5NC4yMSwxOTQuMzZhMTkuMDE2LDE5LjAxNiwwLDAsMSwuNTM4LTQuNDkxLDEyLjE2NiwxMi4xNjYsMCwwLDEsOC41NjgtOC45ODVBMjAuNzI2LDIwLjcyNiwwLDAsMCwxMzMsMTYzLjA4OGwxLjM4OC0zMC40NjJjNi4wMzMuMDYxLDE1LjU3OC0uMDYxLDI3LjI4MS0uOSwzMS4yMTgsMjYuNzcxLDY5LjU0OCwzOC42NDksOTYuNSw0My45MDYsMjkuNzcsNS44MDUsNTEuOTQ2LDUuMDM0LDUyLjg3Niw1LC4xNTEtLjAwNi4zLS4wMjQuNDQ3LS4wNGExMi4yNDUsMTIuMjQ1LDAsMCwxLDkuNzQyLDkuMjYsMTkuMDQ3LDE5LjA0NywwLDAsMSwuNTQyLDQuNTA1QTE4Ljg0NiwxOC44NDYsMCwwLDEsMzA2LjIyNiwyMTIuOWE3LDcsMCwwLDAtNS42OTQsNS43bC01LjE0MywxNy43MDdhNi43NjQsNi43NjQsMCwwLDAtLjE1OS42NjEsODguNzY2LDg4Ljc2NiwwLDAsMS0xNzQuNDcxLDBaTTU2LjM0LDQyMC43NmE0My41MTEsNDMuNTExLDAsMCwxLDEuMDQ0LTkuOTM1Yy4xNDMtLjYwOS4zLTEuMjExLjQ0Ni0xLjc2OSw0LjEtMTQuOTA2LDE1LjY2Ny0yNi43NjMsMzAuOTQ5LTMxLjcxN2w3Mi43OC0yMy42YTEwMi44NjcsMTAyLjg2NywwLDAsMCw5Mi44ODIsMGw3Mi43NzUsMjMuNmE0OC40NjMsNDguNDYzLDAsMCwxLDcuNDI2LDMuMUwyOTcuNTMxLDQxNy41NWMtLjA5NC4wOTUtLjE3OC4yLS4yNjYuMy0uMDUxLjA1Ny0uMS4xMTEtLjE1NC4xNjlhNy4yNDYsNy4yNDYsMCwwLDAtLjQ5NC42NjJoMGE3LjA0MSw3LjA0MSwwLDAsMC0uNC43MTZjLS4wMjYuMDU0LS4wNS4xMDgtLjA3NS4xNjJhNi43NDUsNi43NDUsMCwwLDAtLjI1Ny42MzJjLS4wMTIuMDM0LS4wMjkuMDY2LS4wNDEuMUwyODAuODI0LDQ2NS4zNUg1Ni4zNFptMjMzLjUsNjEuOCwyLjU1Mi03LjY1OHEuMDY2LS4xNjguMTIzLS4zNDJsMTMuMDMtMzkuMSwzMS40LDMxLjRabTE0Ni43NS0xMDkuMjI2LTM3LjUxNy0zNy41MTcsMTYuMTgtMTYuMTc4LDM3LjUxMywzNy41MTlaIiBzdHlsZT0iZmlsbDojNjMzMTZkIi8+PC9zdmc+Cg==" />
+        </div>
+    </div>
+</div>
+
+
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+    
+    <div class="form-horizontal">
+        <hr />
+        @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+        @Html.HiddenFor(model => model.mat_alu)
+
+        <div class="form-group" style="margin-left: 100px;">
+            <div class="col-md-4">
+                <a style="margin-bottom: 10px; font-size:18px;">Nombre</a>
+                @Html.EditorFor(model => model.nom_alu, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.nom_alu, "", new { @class = "text-danger" })
+            </div>
+
+            <div class="col-md-4">
+                <a style="margin-bottom: 10px; font-size:18px;">Edad</a>
+                @Html.EditorFor(model => model.edad_alu, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.edad_alu, "", new { @class = "text-danger" })
+            </div>
+
+            <div class="col-md-4">
+                <a style="margin-bottom: 10px; font-size:18px;">Semestre</a>
+                @Html.EditorFor(model => model.sem_alu, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.sem_alu, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group" style="margin-left: 200px; margin-top: 40px;">
+            <div class="col-md-5">
+                <a style="margin-bottom: 10px; font-size:18px;">Genero</a>
+                @Html.EditorFor(model => model.gen_alu, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.gen_alu, "", new { @class = "text-danger" })
+            </div>
+
+            <div class="col-md-5">
+                <a style="margin-bottom: 10px; font-size:18px;">Carrera</a>
+                @Html.DropDownList("clave_c1", null, htmlAttributes: new { @class = "form-control" })
+                @Html.ValidationMessageFor(model => model.clave_c1, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group" style="margin-left: 350px; margin-top: 40px;">
+            <div class="col-md-offset-2 col-md-10">
+                <input type="submit" value="Guardar" class="btn btn-primary" />
+            </div>
+        </div>
+    </div>
+}
+
+<div>
+    @Html.ActionLink("Volver", "Index")
+</div>
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}
