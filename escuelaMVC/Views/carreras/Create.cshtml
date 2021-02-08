@@ -7,8 +7,8 @@
 <div class="jumbotron" style="border:solid 2px #ef6c00">
     <div class="row">
         <div class="col-md-7" style="margin-top: 50px; ">
-            <h1 style="color: #ef6c00; margin-left: 80px;">Nueva Materia</h1>
-            <p class="lead" style="margin-left: 80px;">Expandemos nuestras clases, ayudarte a crecer nos hace crecer a nosotros.</p>
+            <h1 style="color: #ef6c00; margin-left: 80px;">Nueva Carrera</h1>
+            <p class="lead" style="margin-left: 80px;">Expandemos nuestras Carreras, ayudarte a crecer nos hace crecer a nosotros.</p>
         </div>
 
         <div class="col-md-5">
@@ -30,7 +30,7 @@
 
     <div class="form-group" style="margin-left: 420px;">
         <div class="col-md-10">
-            <a style="margin-bottom: 10px; font-size:18px;">Nombre de la materia</a>
+            <a style="margin-bottom: 10px; font-size:18px;">Nombre de la Carrera</a>
             @Html.EditorFor(model => model.nom_c, new { htmlAttributes = new { @class = "form-control" } })
             @Html.ValidationMessageFor(model => model.nom_c, "", new { @class = "text-danger" })
         </div>
@@ -39,13 +39,13 @@
 
     <div class="form-group" style="margin-left: 220px; margin-top: 40px;" >
         <div class="col-md-5">
-            <a style="margin-bottom: 10px; font-size:18px;">Codigo de la materia</a>
+            <a style="margin-bottom: 10px; font-size:18px;">Codigo de la Carrera</a>
             @Html.EditorFor(model => model.Clave_c, new { htmlAttributes = new { @class = "form-control" } })
             @Html.ValidationMessageFor(model => model.Clave_c, "", new { @class = "text-danger" })
         </div>
 
         <div class="col-md-5">
-            <a style="margin-bottom: 10px; font-size:18px;">Semestres que dura la materia</a>
+            <a style="margin-bottom: 10px; font-size:18px;">Semestres que dura la Carrera</a>
             @Html.EditorFor(model => model.durac_c, new { htmlAttributes = new { @class = "form-control" } })
             @Html.ValidationMessageFor(model => model.durac_c, "", new { @class = "text-danger" })
         </div>
